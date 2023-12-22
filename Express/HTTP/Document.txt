@@ -1,0 +1,12 @@
+HTTP -> Hypertext Transfer Protocol
+
+Request Vocab 
+
+1. GET -> Request resource
+2. POST -> sending a resource
+3. PUT  -> Update Method -- Replace resource 
+4. PATCH -> Patch up a resource -- only the missing content 
+5. DELETE -> Delete resource
+
+Learn about nodemon 
+
