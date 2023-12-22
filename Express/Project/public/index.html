@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Secrets</title>
+</head>
+<style>
+  body {
+    background-color: #F6D6D6;
+  }
+  .all{
+    width: 360px;
+    padding: 10px;
+    background-color: bisque;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .heading {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(232, 134, 16);
+    text-align: center;
+  }
+  .form {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: aquamarine;
+  }
+</style>
+
+<body>
+  <div class="all">
+    <div class="heading">
+      <h1>Secrets</h1>
+    </div>
+    <div class="form">
+      <form action="/check" method="POST">
+        <label for="password">Password:</label>
+        <input type="text" id="password" name="password" required>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
